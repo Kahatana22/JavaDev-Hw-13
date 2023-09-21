@@ -7,7 +7,6 @@
 <body>
 <h1>Список нотаток</h1>
 <ul>
-    <!-- Виводимо список нотаток -->
     <th:block th:each="note : ${notes}">
         <li>
             <strong th:text="${note.title}"></strong>
